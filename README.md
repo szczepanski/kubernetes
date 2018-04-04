@@ -56,3 +56,13 @@ sudo docker ps
 sudo docker inspect 43263f45699c
 curl 172.17.0.4
 ```
+## cleanup 
+```shell
+# get docker containers IDs
+sudo docker ps
+sudo docker stop 43263f45699c bf84cfdfa4c1 4809bdf9e792top 
+
+# remove docker containers and any files
+sudo docker rm 43263f45699c bf84cfdfa4c1 4809bdf9e792top
+sudo docker ps
+```
