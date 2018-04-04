@@ -6,6 +6,8 @@ References:
 
 https://classroom.udacity.com/courses/ud615
 
+# Microservies
+
 
 
 # Docker
@@ -71,3 +73,19 @@ sudo docker ps
 As best practice an application is not build with Docker. 
 Instead binaries are used that could've come from continuous integration pipeline. 
 Dockerfile - text document containg series of necessary steps for building and image from CLI.
+
+### Basic Dockerfile Format:
+```shell
+# From - tells docker which base image to build new image on top of, 
+# here most popular Linux Apline 3.1. - small, contains package management and production debugging 
+# default for officila docker images (5Mb size)
+# maintainer - author 
+# ADD - takes file or directory from host OS and add it to the container file system specified location
+# ENTRYPOINT - let container to r
+
+From Alpine:3.1
+MAINTAINER ptr.szczepanski@gmail.com
+ADD hello /usr/bin/hello
+ENTRYPOINT ["hello"]
+```
+
