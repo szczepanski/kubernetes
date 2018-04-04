@@ -66,3 +66,5 @@ sudo docker stop 43263f45699c bf84cfdfa4c1 4809bdf9e792top
 sudo docker rm 43263f45699c bf84cfdfa4c1 4809bdf9e792top
 sudo docker ps
 ```
+
+## Building own docker images - lesson 10
