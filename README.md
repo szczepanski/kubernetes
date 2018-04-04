@@ -1,4 +1,11 @@
+Piotr Szczepanski
+
 # microservices, docker and kubernetes
+<br>
+References:
+
+https://classroom.udacity.com/courses/ud615
+
 
 
 # Docker
@@ -23,7 +30,7 @@ sudo ps aux | grep nginx
 Native OS are good when it comes to installing, starting and stopping applications. 
 When it comes to running multiple instances of one application or running different versions of the application, required configuration becomes complex.  
 
-## install docker
+## install docker,
 ```shell 
 sudo apt-get install docker.io 
 sudo docker images
