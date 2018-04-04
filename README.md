@@ -30,10 +30,29 @@ sudo ps aux | grep nginx
 Native OS are good when it comes to installing, starting and stopping applications. 
 When it comes to running multiple instances of one application or running different versions of the application, required configuration becomes complex.  
 
-## install docker,
+## install docker, two versions of nginx images 
 ```shell 
 sudo apt-get install docker.io 
 sudo docker images
-# download nginx img and its dependencies
+
+# download nginx (image and all its dependencies)
 sudo docker pull nginx:1.10.0
+sudo docker images
+
+# run docker nginx
+sudo docker run -d nginx:1.10.0
+sudo docker ps
+
+# install (pull) and run older nginx version
+sudo docker run -d nginx:1.9.3
+sudo docker ps
+```
+
+## Communication with docker containers
+```shell
+# copy specific docker container id
+sudo docker ps
+# check docker information including its IPv4
+sudo docker inspect 43263f45699c
+curl 172.17.0.4
 ```
