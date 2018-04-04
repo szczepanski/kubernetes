@@ -6,8 +6,15 @@ References:
 
 https://classroom.udacity.com/courses/ud615
 
-# Microservies
+# Microservices
 
+
+It is an architectural approach to designing applications in a way that is:
+- Modular
+- Easy to deploy
+- Scale independently
+
+tbc 5. get the source code 
 
 
 # Docker
