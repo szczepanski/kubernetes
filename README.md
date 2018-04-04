@@ -67,4 +67,7 @@ sudo docker rm 43263f45699c bf84cfdfa4c1 4809bdf9e792top
 sudo docker ps
 ```
 
-## Building own docker images - lesson 10
+## Building own docker images - Dockerfile
+As best practice an application is not build with Docker. 
+Instead binaries are used that could've come from continuous integration pipeline. 
+Dockerfile - text document containg series of necessary steps for building and image from CLI.
