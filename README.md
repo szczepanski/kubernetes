@@ -16,6 +16,9 @@ It is an architectural approach to designing applications in a way that is:
 
 tbc 5. get the source code 
 
+### training
+
+
 
 # Docker
 It is a packaging format that includes an application(s), its dependencies and runtime information / variables required to run it.  
@@ -95,4 +98,16 @@ MAINTAINER ptr.szczepanski@gmail.com
 ADD hello /usr/bin/hello
 ENTRYPOINT ["hello"]
 ```
+### training
+
+
+
+
+
+
+# Kubernetes
+
+
+### training
+
 
